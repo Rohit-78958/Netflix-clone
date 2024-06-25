@@ -99,6 +99,7 @@ nav {
   position: relative;
   /* background-position: center center; */
   /* background-size: max(1200px, 100vw); */
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -125,6 +126,7 @@ section:nth-child(2){
 }
 
 .fill .email{
+  color: white;
   width: 350px;
   height: 56px;
   background-color: black;
