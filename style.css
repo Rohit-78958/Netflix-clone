@@ -97,7 +97,7 @@ nav {
   height: 120vh;
   /* width: 100vw; */
   position: relative;
-  background-position: center center;
+  /* background-position: center center; */
   /* background-size: max(1200px, 100vw); */
   background-repeat: no-repeat;
 }
