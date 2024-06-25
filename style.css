@@ -98,8 +98,8 @@ nav {
   /* width: 100vw; */
   position: relative;
   background-position: center center;
-  background-size: max(1200px, 100vw);
-  /* background-repeat: no-repeat; */
+  /* background-size: max(1200px, 100vw); */
+  background-repeat: no-repeat;
 }
 
 section:nth-child(2){
@@ -468,6 +468,10 @@ footer .grid span a{
   .NavBtn{
     gap: 10px;
   }
+
+  .sixth-01 span{
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width:600px){
@@ -478,6 +482,16 @@ footer .grid span a{
   .fill .email{
     width: 75vw;
     height: 48px;
+  }
+
+  .sixth-01 span{
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .NavBtn .nav span{
+    display: none;
   }
 }
 
@@ -503,5 +517,9 @@ footer .grid span a{
     height: 120px;
     top:25px;
     left:60px;
+  }
+
+  .content .writing{
+    width: 80%;
   }
 }
