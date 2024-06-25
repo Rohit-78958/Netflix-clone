@@ -205,6 +205,15 @@ section > .content{
   align-items: center;
 }
 
+.grid > img{
+  width: 500px;
+  height: 380px;
+}
+.sec .grid video{
+  width: 372px;
+  height: 202px;
+}
+
 .third{
   padding: 70px 0px;
   /* height: 400px; */
@@ -274,6 +283,11 @@ section > .content{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fourth .content .grid video{
+  width: 320px;
+  height: 240px;
 }
 
 .fourth .content .grid video{
@@ -467,8 +481,27 @@ footer .grid span a{
   }
 }
 
-@media screen and (max-width:500px){
-  .grid{
-    width: 50%;
+@media screen and (max-width:550px){
+  .grid > img{
+    width: 350px;
+    height: 230px;
+  }
+  .sec .grid video{
+    width: 255px;
+    height: 180px;
+    top:30px;
+    left:46px;
+  }
+
+  .third .content .grid .vid{
+    top:150px;
+    left: 40px;
+  }
+
+  .fourth .content .grid video{
+    width: 220px;
+    height: 120px;
+    top:25px;
+    left:60px;
   }
 }
